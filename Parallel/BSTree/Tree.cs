@@ -7,11 +7,6 @@ namespace BinaryTree
 
         public Node root = null;
 
-        bool isEmpty()
-        {
-            return (root == null);
-        }
-
         public void insert(int key, int val)
         {
 
